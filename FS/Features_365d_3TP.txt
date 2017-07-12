@@ -1,49 +1,54 @@
 365d_2to3
 @attribute Name numeric
-@attribute 'Onset form' numeric
+@attribute 'Age at onset' numeric
+@attribute 'Envolved segment - 1st symptoms' {LL,UL,B,AR}
 @attribute '1st symptoms - 1st visit' numeric
 @attribute ALS-FRS_2 numeric
 @attribute ALS-FRS-R_2 numeric
 @attribute R_2 numeric
 @attribute SpO2mean_2 numeric
 @attribute SpO2min_2 numeric
-@attribute Pattern_2 numeric
+@attribute 'Dips/h<4\%_2' numeric
 @attribute PhrenMeanLat_2 numeric
+@attribute PhrenMeanAmpl_2 numeric
 @attribute PhrenMeanArea_2 numeric
-@attribute Evolution_3 {Y,N}
+@attribute Evolution_2 {Y,N}
 365d_1to3
 @attribute Name numeric
-@attribute 'Envolved segment - 1st symptoms' {LL,UL,B,AR}
+@attribute 'Age at onset' numeric
 @attribute '1st symptoms - 1st visit' numeric
 @attribute ALS-FRS_1 numeric
 @attribute ALS-FRSb_1 numeric
-@attribute 'Dips/h<4\%_1' numeric
-@attribute PO2_1 numeric
+@attribute R_1 numeric
+@attribute Pattern_1 numeric
+@attribute PhrenMeanLat_1 numeric
+@attribute PhrenMeanAmpl_1 numeric
+@attribute PhrenMeanArea_1 numeric
 @attribute ALS-FRS_2 numeric
 @attribute ALS-FRS-R_2 numeric
 @attribute R_2 numeric
 @attribute SpO2mean_2 numeric
 @attribute SpO2min_2 numeric
-@attribute Pattern_2 numeric
+@attribute 'Dips/h<4\%_2' numeric
 @attribute PhrenMeanLat_2 numeric
+@attribute PhrenMeanAmpl_2 numeric
 @attribute PhrenMeanArea_2 numeric
-@attribute Evolution_3 {Y,N}
+@attribute Evolution_2 {Y,N}
 365d_0to3
 @attribute Name numeric
-@attribute 'Envolved segment - 1st symptoms' {LL,UL,B,AR}
+@attribute 'Age at onset' numeric
 @attribute '1st symptoms - 1st visit' numeric
 @attribute ALS-FRS-R_0 numeric
+@attribute '\%FVC_0' numeric
+@attribute PhrenMeanLat_0 numeric
 @attribute ALS-FRS_1 numeric
 @attribute ALS-FRSb_1 numeric
-@attribute 'Dips/h<4\%_1' numeric
-@attribute 'Dips/h<3\%_1' numeric
-@attribute PO2_1 numeric
+@attribute PhrenMeanAmpl_1 numeric
 @attribute ALS-FRS_2 numeric
-@attribute ALS-FRS-R_2 numeric
 @attribute R_2 numeric
 @attribute SpO2mean_2 numeric
 @attribute SpO2min_2 numeric
-@attribute Pattern_2 numeric
+@attribute 'Dips/h<4\%_2' numeric
 @attribute PhrenMeanLat_2 numeric
-@attribute PhrenMeanArea_2 numeric
-@attribute Evolution_3 {Y,N}
+@attribute PhrenMeanAmpl_2 numeric
+@attribute Evolution_2 {Y,N}

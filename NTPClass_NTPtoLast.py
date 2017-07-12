@@ -24,7 +24,7 @@ NTPspSVM = []
 NTPspRF = []
 BeginsTotal = []
 
-window = 90
+window = 365
 for ntp in range(2,6):
     Begins = np.array(range(0,ntp))
     counter += 1
@@ -37,6 +37,9 @@ for ntp in range(2,6):
 
     if sys.platform == "darwin":
         path = '/Users/Lino/PycharmProjects/Preprocessing/NTPtoLast/' + str(ntp) + 'TP'
+        directory = '/Users/Lino/PycharmProjects/Classification/NTPtoLastClass/'
+        if not os.path.exists(directory):
+            os.makedirs(directory)
     elif sys.platform == "win32":
         path = 'C:\\Users\\Lino\\PycharmProjects\\Preprocessing\\NTP\\' + str(ntp) + 'TP'
     sys.path.append(path)
@@ -46,46 +49,8 @@ for ntp in range(2,6):
                 from weka.core.converters import Loader
 
                 loader = Loader(classname="weka.core.converters.CSVLoader")
-                data = loader.load_file(path + '/' + str(window) + 'd_' + str(begin) + 'to' + str(ntp) + '.csv')
+                data = loader.load_file(path + '/' + str(window) + 'd_' + str(begin) + 'to' + str(ntp-1) + '.csv')
                 data.class_is_last()
-
-                # from weka.attribute_selection import ASEvaluation, ASSearch, AttributeSelection
-                #
-                # search = ASSearch(classname="weka.attributeSelection.BestFirst", options=["-D", "1", "-N", "5"])
-                # evaluation = ASEvaluation(classname="weka.attributeSelection.CfsSubsetEval",
-                #                           options=["-P", "1", "-E", "1"])
-                # attsel = AttributeSelection()
-                # attsel.search(search)
-                # attsel.evaluator(evaluation)
-                # attsel.select_attributes(dataTrain)
-                # print("# attributes: " + str(attsel.number_attributes_selected))
-                # print("attributes: " + str(attsel.selected_attributes))
-                # print("result string:\n" + attsel.results_string)
-                #
-                # FullAttributes = np.array(range(34))
-                # toBeDeleted = [i for i in range(0,33) if FullAttributes[i] not in attsel.selected_attributes]
-                # toBeDeleted.append(33)
-                # dataTrain = removeAttributes(dataTrain,toBeDeleted)
-                # dataTest = removeAttributes(dataTest,toBeDeleted)
-                #
-                #
-                # def removeAttributes(instaces, toBeDeleted):
-                #     from weka.filters import Filter
-                #     remove = Filter(classname="weka.filters.unsupervised.attribute.Remove",
-                #                     options=["-R", ','.join(list(map(str, toBeDeleted)))])
-                #     remove.inputformat(instaces)
-                #     newInstaces = remove.filter(instaces)
-                #     return newInstaces
-
-                # from weka.filters import Filter
-                # Split = Filter(classname='weka.filters.unsupervised.instance.RemovePercentage', options=['-P','30'])
-                # Split.inputformat(data)
-                # dataTrain = Split.filter(data)
-                # Split = Filter(classname='weka.filters.unsupervised.instance.RemovePercentage', options=['-P','30','-V'])
-                # Split.inputformat(data)
-                # dataTest = Split.filter(data)
-                # dataTrain.class_is_last()
-                # dataTest.class_is_last()
 
                 from weka.filters import Filter
                 NominalToBinary = Filter(classname="weka.filters.unsupervised.attribute.NominalToBinary", options=["-R", "5,7,8"])
@@ -93,8 +58,6 @@ for ntp in range(2,6):
                 ReplaceMV = Filter(classname="weka.filters.unsupervised.attribute.ReplaceMissingValues")
                 ReplaceMV.inputformat(data)
                 data = ReplaceMV.filter(data)
-                #ReplaceMV.inputformat(dataTest)
-                #dataTest=ReplaceMV.filter(dataTest)
 
                 from weka.classifiers import Classifier
                 if classifier == 0:
@@ -154,7 +117,7 @@ for i in range(0,4):
     axs[i].set_xticklabels(labels)
     axs[i].set_xlabel('Número de Snapshots Usados')
     axs[i].set_ylabel('AUC')
-    axs[i].set_title('Previsão ' + str(len(NTPspNB[i])+1) + 'º Snapshot')
+    axs[i].set_title('Previsão ' + str(len(NTPspNB[i])) + 'º Snapshot')
     axs[i].set_xlim(-0.05,aux[len(aux)-1]-0.95)
     axs[i].set_ylim(min(Min)-0.5,max(Max)+0.5)
 
@@ -181,7 +144,7 @@ for i in range(0,4):
     axs[i].grid(which='major', alpha=0.5)
     axs[i].legend(bbox_to_anchor=(0., 1.02, 1., .102), loc=3,ncol=1, borderaxespad=0., prop={'size':6})
 fig.suptitle(str(window) + 'd')
-fig.savefig(str(window) + 'd' +'_NTPtoLast-AUC.png')
+fig.savefig(directory+str(window) + 'd' +'_NTPtoLast-AUC.png')
 
 # for ntp in range(2,6):
 #     fig, axs = plt.subplots(2,2, figsize=(15, 6), facecolor='w', edgecolor='k')

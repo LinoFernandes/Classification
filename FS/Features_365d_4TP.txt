@@ -1,46 +1,60 @@
 365d_3to4
 @attribute Name numeric
+@attribute 'Onset form' numeric
+@attribute '1st symptoms - 1st visit' numeric
 @attribute ALS-FRS_3 numeric
 @attribute ALS-FRS-R_3 numeric
-@attribute ALS-FRSb_3 numeric
+@attribute R_3 numeric
+@attribute 'Dips/h<4\%_3' numeric
 @attribute Pattern_3 numeric
-@attribute PhrenMeanAmpl_3 numeric
-@attribute Evolution_4 {Y,N}
+@attribute Evolution_3 {Y,N}
 365d_2to4
 @attribute Name numeric
+@attribute 'Envolved segment - 1st symptoms' {LL,UL,B,AR}
+@attribute '1st symptoms - 1st visit' numeric
 @attribute ALS-FRS-R_2 numeric
-@attribute ALS-FRSb_2 numeric
+@attribute R_2 numeric
+@attribute SpO2mean_2 numeric
+@attribute SpO2min_2 numeric
 @attribute Pattern_2 numeric
+@attribute PhrenMeanLat_2 numeric
 @attribute PhrenMeanArea_2 numeric
 @attribute ALS-FRS_3 numeric
 @attribute ALS-FRS-R_3 numeric
 @attribute ALS-FRSb_3 numeric
+@attribute R_3 numeric
+@attribute 'Dips/h<4\%_3' numeric
 @attribute Pattern_3 numeric
-@attribute PhrenMeanAmpl_3 numeric
-@attribute Evolution_4 {Y,N}
+@attribute Evolution_3 {Y,N}
 365d_1to4
 @attribute Name numeric
+@attribute '1st symptoms - 1st visit' numeric
 @attribute ALS-FRS_1 numeric
+@attribute ALS-FRSb_1 numeric
 @attribute 'Dips/h<4\%_1' numeric
-@attribute 'Dips/h<3\%_1' numeric
+@attribute PO2_1 numeric
 @attribute ALS-FRS-R_2 numeric
-@attribute ALS-FRSb_2 numeric
+@attribute SpO2mean_2 numeric
+@attribute SpO2min_2 numeric
 @attribute Pattern_2 numeric
-@attribute PhrenMeanArea_2 numeric
+@attribute PhrenMeanLat_2 numeric
 @attribute ALS-FRS_3 numeric
 @attribute ALS-FRS-R_3 numeric
-@attribute ALS-FRSb_3 numeric
-@attribute Evolution_4 {Y,N}
+@attribute R_3 numeric
+@attribute Evolution_3 {Y,N}
 365d_0to4
 @attribute Name numeric
+@attribute '1st symptoms - 1st visit' numeric
 @attribute ALS-FRS_1 numeric
+@attribute ALS-FRSb_1 numeric
 @attribute 'Dips/h<4\%_1' numeric
-@attribute 'Dips/h<3\%_1' numeric
+@attribute PO2_1 numeric
 @attribute ALS-FRS-R_2 numeric
-@attribute ALS-FRSb_2 numeric
+@attribute SpO2mean_2 numeric
+@attribute SpO2min_2 numeric
 @attribute Pattern_2 numeric
-@attribute PhrenMeanArea_2 numeric
+@attribute PhrenMeanLat_2 numeric
 @attribute ALS-FRS_3 numeric
 @attribute ALS-FRS-R_3 numeric
-@attribute ALS-FRSb_3 numeric
-@attribute Evolution_4 {Y,N}
+@attribute R_3 numeric
+@attribute Evolution_3 {Y,N}

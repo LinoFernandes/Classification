@@ -1,28 +1,45 @@
 90d_4to5
-@attribute 'El Escorial reviewed criteria' {pos,pro,PMA,def,PLS}
-@attribute 'Evolution patternB' {'hemi cruz','para cruz',para,CROSSED,hemi}
-@attribute peso_4 numeric
-@attribute Evolution_5 {Y,N}
+@attribute ALS-FRS_4 numeric
+@attribute ALS-FRS-R_4 numeric
+@attribute SpO2min_4 numeric
+@attribute 'SpO2<90\%_4' numeric
+@attribute Pattern_4 numeric
+@attribute Evolution_4 {N,Y}
 90d_3to5
-@attribute 'El Escorial reviewed criteria' {pos,pro,PMA,def,PLS}
-@attribute 'Evolution patternB' {'hemi cruz','para cruz',para,CROSSED,hemi}
-@attribute peso_4 numeric
-@attribute Evolution_5 {Y,N}
+@attribute ALS-FRS-R_3 numeric
+@attribute ALS-FRS_4 numeric
+@attribute ALS-FRS-R_4 numeric
+@attribute ALS-FRSb_4 numeric
+@attribute SpO2mean_4 numeric
+@attribute SpO2min_4 numeric
+@attribute 'SpO2<90\%_4' numeric
+@attribute Pattern_4 numeric
+@attribute Evolution_4 {N,Y}
 90d_2to5
-@attribute 'El Escorial reviewed criteria' {pos,pro,PMA,def,PLS}
-@attribute 'Evolution patternB' {'hemi cruz','para cruz',para,CROSSED,hemi}
-@attribute PhrenMeanArea_2 numeric
-@attribute peso_4 numeric
-@attribute Evolution_5 {Y,N}
+@attribute ALS-FRS-R_2 numeric
+@attribute ALS-FRS_4 numeric
+@attribute SpO2min_4 numeric
+@attribute 'SpO2<90\%_4' numeric
+@attribute Pattern_4 numeric
+@attribute Evolution_4 {N,Y}
 90d_1to5
-@attribute 'El Escorial reviewed criteria' {pos,pro,PMA,def,PLS}
-@attribute 'Evolution patternB' {'hemi cruz','para cruz',para,CROSSED,hemi}
-@attribute PhrenMeanArea_2 numeric
-@attribute peso_4 numeric
-@attribute Evolution_5 {Y,N}
+@attribute 'Dips4\%_1' numeric
+@attribute ALS-FRS-R_2 numeric
+@attribute ALS-FRS_4 numeric
+@attribute SpO2min_4 numeric
+@attribute 'SpO2<90\%_4' numeric
+@attribute Pattern_4 numeric
+@attribute Evolution_4 {N,Y}
 90d_0to5
-@attribute 'El Escorial reviewed criteria' {pos,pro,PMA,def,PLS}
-@attribute 'Evolution patternB' {'hemi cruz','para cruz',para,CROSSED,hemi}
-@attribute PhrenMeanArea_2 numeric
-@attribute peso_4 numeric
-@attribute Evolution_5 {Y,N}
+@attribute 'Dips4\%_1' numeric
+@attribute 'Dips/h<4\%_1' numeric
+@attribute ALS-FRS-R_2 numeric
+@attribute SpO2min_2 numeric
+@attribute 'Dips/h<4\%_2' numeric
+@attribute ALS-FRS_4 numeric
+@attribute ALS-FRS-R_4 numeric
+@attribute SpO2mean_4 numeric
+@attribute SpO2min_4 numeric
+@attribute 'SpO2<90\%_4' numeric
+@attribute Pattern_4 numeric
+@attribute Evolution_4 {N,Y}

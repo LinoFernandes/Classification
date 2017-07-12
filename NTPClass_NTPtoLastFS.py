@@ -21,14 +21,22 @@ counter = -1
 NTPspNB = []
 NTPspSVM = []
 NTPspRF = []
+
+NTPspNB_FS = []
+NTPspSVM_FS = []
+NTPspRF_FS = []
 BeginsTotal = []
 
 window = 90
-for ntp in range(2, 7):
+for ntp in range(2, 6):
     Begins = np.array(range(0, ntp))
     counter += 1
     BeginsTotal.insert(counter, Begins)
     Begins = Begins[::-1]
+
+    roc_NB_FS = []
+    roc_SVM_FS = []
+    roc_RF_FS = []
 
     roc_NB = []
     roc_SVM = []
@@ -36,7 +44,7 @@ for ntp in range(2, 7):
 
     if sys.platform == "darwin":
         path = '/Users/Lino/PycharmProjects/Preprocessing/NTPtoLast/' + str(ntp) + 'TP'
-        directory = '/Users/Lino/PycharmProjects/Preprocessing/FS/'
+        directory = '/Users/Lino/PycharmProjects/Classification/FS/'
     elif sys.platform == "win32":
         path = 'C:\\Users\\Lino\\PycharmProjects\\Preprocessing\\NTP\\' + str(ntp) + 'TP'
     sys.path.append(path)
@@ -46,7 +54,7 @@ for ntp in range(2, 7):
                 from weka.core.converters import Loader
 
                 loader = Loader(classname="weka.core.converters.CSVLoader")
-                data = loader.load_file(path + '/' + str(window) + 'd_' + str(begin) + 'to' + str(ntp) + '.csv')
+                data = loader.load_file(path + '/' + str(window) + 'd_' + str(begin) + 'to' + str(ntp-1) + '.csv')
                 data.class_is_last()
 
                 import weka.core.classes as wcc
@@ -136,14 +144,22 @@ for ntp in range(2, 7):
                 from weka.core.classes import Random
 
                 # print("Evaluating NB classifier")
+                evaluationFS = Evaluation(data)
+                evaluationFS.crossvalidate_model(mapper, FSdata, 10, Random(42))
+
                 evaluation = Evaluation(data)
-                evaluation.crossvalidate_model(mapper, FSdata, 10, Random(42))
+                evaluation.crossvalidate_model(mapper, data, 10, Random(42))
                 if classifier == 0:
                     roc_NB.append(100 * evaluation.area_under_roc(1))
+                    roc_NB_FS.append(100 * evaluationFS.area_under_roc(1))
+
                 elif classifier == 1:
                     roc_SVM.append(100 * evaluation.area_under_roc(1))
+                    roc_SVM_FS.append(100 * evaluationFS.area_under_roc(1))
                 else:
                     roc_RF.append(100 * evaluation.area_under_roc(1))
+                    roc_RF_FS.append(100 * evaluationFS.area_under_roc(1))
+
 
 
             except:
@@ -153,6 +169,10 @@ for ntp in range(2, 7):
     NTPspSVM.insert(counter, roc_SVM)
     NTPspRF.insert(counter, roc_RF)
 
+    NTPspNB_FS.insert(counter, roc_NB_FS)
+    NTPspSVM_FS.insert(counter, roc_SVM_FS)
+    NTPspRF_FS.insert(counter, roc_RF_FS)
+
 jvm.stop()
 
 fig, axs = plt.subplots(2, 2, figsize=(15, 6), facecolor='w', edgecolor='k')
@@ -161,12 +181,16 @@ axs = axs.flatten()
 for i in range(0, 4):
     labels = []
     aux = []
-    Min = np.array([min(NTPspNB[i]), min(NTPspSVM[i]), min(NTPspRF[i])])
-    Max = np.array([max(NTPspNB[i]), max(NTPspSVM[i]), max(NTPspRF[i])])
+    Min = np.array([min(NTPspNB[i]), min(NTPspSVM[i]), min(NTPspRF[i]),min(NTPspNB_FS[i]), min(NTPspSVM_FS[i]), min(NTPspRF_FS[i])])
+    Max = np.array([max(NTPspNB[i]), max(NTPspSVM[i]), max(NTPspRF[i]),max(NTPspNB_FS[i]), max(NTPspSVM_FS[i]), max(NTPspRF_FS[i])])
 
-    axs[i].plot(BeginsTotal[i], NTPspNB[i], label='NB_' + str(window) + 'd')
-    axs[i].plot(BeginsTotal[i], NTPspSVM[i], label='SVM_' + str(window) + 'd')
-    axs[i].plot(BeginsTotal[i], NTPspRF[i], label='RF_' + str(window) + 'd')
+    axs[i].plot(BeginsTotal[i], NTPspNB_FS[i], label='NB_' + str(window) + 'd' + ' c/ FS', color='b')
+    axs[i].plot(BeginsTotal[i], NTPspSVM_FS[i], label='SVM_' + str(window) + 'd' + ' c/ FS', color='g')
+    axs[i].plot(BeginsTotal[i], NTPspRF_FS[i], label='RF_' + str(window) + 'd' + ' c/ FS', color='r')
+
+    axs[i].plot(BeginsTotal[i], NTPspNB[i], label='NB_' + str(window) + 'd', color='b', ls='dashed')
+    axs[i].plot(BeginsTotal[i], NTPspSVM[i], label='SVM_' + str(window) + 'd', color='g', ls='dashed')
+    axs[i].plot(BeginsTotal[i], NTPspRF[i], label='RF_' + str(window) + 'd', color='r', ls='dashed')
     axs[i].legend()
     for label in range(0, len(NTPspNB[i])):
         labels.append(str(label + 1))
@@ -175,7 +199,7 @@ for i in range(0, 4):
     axs[i].set_xticklabels(labels)
     axs[i].set_xlabel('Número de Snapshots Usados')
     axs[i].set_ylabel('AUC')
-    axs[i].set_title('Previsão ' + str(len(NTPspNB[i]) + 1) + 'º Snapshot')
+    axs[i].set_title('Previsão ' + str(len(NTPspNB[i])) + 'º Snapshot')
     axs[i].set_xlim(-0.05, aux[len(aux) - 1] - 0.95)
     axs[i].set_ylim(min(Min) - 0.5, max(Max) + 0.5)
 
@@ -200,9 +224,9 @@ for i in range(0, 4):
     # or if you want differnet settings for the grids:
     axs[i].grid(which='minor', alpha=0.2)
     axs[i].grid(which='major', alpha=0.5)
-    axs[i].legend(bbox_to_anchor=(0., 1.02, 1., .102), loc=3, ncol=1, borderaxespad=0., prop={'size': 6})
+    axs[i].legend(bbox_to_anchor=(0., 1.02, 1., .102), loc=3, ncol=2, borderaxespad=0., prop={'size': 6})
 fig.suptitle(str(window) + 'd')
-fig.savefig('FeatureSelection'+str(window) + 'd' + '_NTPtoLast-AUC.png')
+fig.savefig(directory+'FeatureSelection'+str(window) + 'd' + '_NTPtoLast-AUC.png')
 
 # for ntp in range(2,6):
 #     fig, axs = plt.subplots(2,2, figsize=(15, 6), facecolor='w', edgecolor='k')
