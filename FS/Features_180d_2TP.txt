@@ -1,0 +1,20 @@
+180d_1to2
+@attribute '1st symptoms - 1st visit' numeric
+@attribute ALS-FRS-R_1 numeric
+@attribute R_1 numeric
+@attribute SpO2min_1 numeric
+@attribute Evolution_2 {Y,N}
+180d_0to2
+@attribute '1st symptoms - 1st visit' numeric
+@attribute '\%MEP_0' numeric
+@attribute PhrenMeanLat_0 numeric
+@attribute ALS-FRS-R_1 numeric
+@attribute R_1 numeric
+@attribute SpO2min_1 numeric
+@attribute Evolution_2 {Y,N}
+180d_1to2
+@attribute '1st symptoms - 1st visit' numeric
+@attribute ALS-FRS-R_1 numeric
+@attribute R_1 numeric
+@attribute SpO2min_1 numeric
+@attribute Evolution_2 {Y,N}

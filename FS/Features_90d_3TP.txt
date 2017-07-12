@@ -1,0 +1,28 @@
+90d_2to3
+@attribute Name numeric
+@attribute Gender numeric
+@attribute '1st symptoms - 1st visit' numeric
+@attribute R_2 numeric
+@attribute SpO2mean_2 numeric
+@attribute 'Dips/h<4\%_2' numeric
+@attribute PhrenMeanLat_2 numeric
+@attribute Evolution_3 {Y,N}
+90d_1to3
+@attribute Name numeric
+@attribute Gender numeric
+@attribute '1st symptoms - 1st visit' numeric
+@attribute R_2 numeric
+@attribute SpO2mean_2 numeric
+@attribute 'Dips/h<4\%_2' numeric
+@attribute PhrenMeanLat_2 numeric
+@attribute Evolution_3 {Y,N}
+90d_0to3
+@attribute Name numeric
+@attribute Gender numeric
+@attribute '1st symptoms - 1st visit' numeric
+@attribute PCO2_0 numeric
+@attribute PhrenMeanLat_0 numeric
+@attribute R_2 numeric
+@attribute SpO2mean_2 numeric
+@attribute PhrenMeanLat_2 numeric
+@attribute Evolution_3 {Y,N}

@@ -1,0 +1,11 @@
+90d_1to2
+@attribute '1st symptoms - 1st visit' numeric
+@attribute ALS-FRS_1 numeric
+@attribute R_1 numeric
+@attribute Evolution_2 {N,Y}
+90d_0to2
+@attribute '1st symptoms - 1st visit' numeric
+@attribute '\%VC_0' numeric
+@attribute ALS-FRS_1 numeric
+@attribute R_1 numeric
+@attribute Evolution_2 {N,Y}

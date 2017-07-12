@@ -1,0 +1,27 @@
+365d_1to2
+@attribute Name numeric
+@attribute 'Age at onset' numeric
+@attribute '1st symptoms - 1st visit' numeric
+@attribute ALS-FRS_1 numeric
+@attribute ALS-FRSb_1 numeric
+@attribute R_1 numeric
+@attribute 'Dips/h<4\%_1' numeric
+@attribute Pattern_1 numeric
+@attribute PhrenMeanLat_1 numeric
+@attribute PhrenMeanAmpl_1 numeric
+@attribute Evolution_2 {Y,N}
+365d_0to2
+@attribute Name numeric
+@attribute 'Age at onset' numeric
+@attribute '1st symptoms - 1st visit' numeric
+@attribute ALS-FRS-R_0 numeric
+@attribute '\%VC_0' numeric
+@attribute PhrenMeanLat_0 numeric
+@attribute ALS-FRS_1 numeric
+@attribute ALS-FRSb_1 numeric
+@attribute R_1 numeric
+@attribute 'Dips/h<4\%_1' numeric
+@attribute Pattern_1 numeric
+@attribute PhrenMeanLat_1 numeric
+@attribute PhrenMeanAmpl_1 numeric
+@attribute Evolution_2 {Y,N}

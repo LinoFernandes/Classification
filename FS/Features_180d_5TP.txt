@@ -1,0 +1,33 @@
+180d_4to5
+@attribute ALS-FRS_4 numeric
+@attribute SpO2min_4 numeric
+@attribute Evolution_5 {Y,N}
+180d_3to5
+@attribute ALS-FRS_3 numeric
+@attribute R_3 numeric
+@attribute ALS-FRS_4 numeric
+@attribute SpO2min_4 numeric
+@attribute 'SpO2<90\%_4' numeric
+@attribute Evolution_5 {Y,N}
+180d_2to5
+@attribute 'Evolution patternB' {'hemi cruz','para cruz',para,CROSSED,hemi}
+@attribute ALS-FRS_3 numeric
+@attribute R_3 numeric
+@attribute ALS-FRS_4 numeric
+@attribute SpO2min_4 numeric
+@attribute Evolution_5 {Y,N}
+180d_1to5
+@attribute ALS-FRS_1 numeric
+@attribute ALS-FRS_3 numeric
+@attribute R_3 numeric
+@attribute ALS-FRS_4 numeric
+@attribute SpO2min_4 numeric
+@attribute 'SpO2<90\%_4' numeric
+@attribute Evolution_5 {Y,N}
+180d_0to5
+@attribute ALS-FRS_1 numeric
+@attribute ALS-FRS_3 numeric
+@attribute R_3 numeric
+@attribute ALS-FRS_4 numeric
+@attribute SpO2min_4 numeric
+@attribute Evolution_5 {Y,N}
