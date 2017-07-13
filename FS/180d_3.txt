@@ -1,0 +1,9 @@
+180d_0to3,180d_1to3,180d_2to3
+'1st,'1st,'1st
+'\%MEP_0',R_1,ALS-FRS_2
+PhrenMeanLat_0,SpO2min_1,R_2
+ALS-FRS_2,ALS-FRS_2,SpO2min_2
+R_2,R_2,PhrenMeanLat_2
+SpO2min_2,SpO2min_2,Evolution_2
+PhrenMeanLat_2,PhrenMeanLat_2,
+Evolution_2,Evolution_2,

@@ -1,0 +1,15 @@
+365d_0to5,365d_1to5,365d_2to5,365d_3to5,365d_4to5
+Name,Name,Name,Name,Name
+'Dips/h<4\%_1','Dips/h<4\%_1',ALS-FRS-R_2,ALS-FRS_3,ALS-FRS_4
+'Dips/h<3\%_1','Dips/h<3\%_1',ALS-FRSb_2,ALS-FRS-R_3,ALS-FRS-R_4
+ALS-FRS-R_2,ALS-FRS-R_2,PhrenMeanArea_2,ALS-FRSb_3,ALS-FRSb_4
+ALS-FRSb_2,ALS-FRSb_2,ALS-FRS_3,Pattern_3,R_4
+PhrenMeanArea_2,PhrenMeanArea_2,ALS-FRS-R_3,ALS-FRS_4,Pattern_4
+ALS-FRS_3,ALS-FRS_3,Pattern_3,ALS-FRS-R_4,PhrenMeanAmpl_4
+ALS-FRS-R_3,ALS-FRS-R_3,PhrenMeanAmpl_3,ALS-FRSb_4,Evolution_4
+Pattern_3,Pattern_3,ALS-FRS_4,R_4,
+ALS-FRS_4,ALS-FRS_4,ALS-FRS-R_4,Pattern_4,
+ALS-FRS-R_4,ALS-FRS-R_4,ALS-FRSb_4,PhrenMeanAmpl_4,
+ALS-FRSb_4,ALS-FRSb_4,PhrenMeanAmpl_4,Evolution_4,
+PhrenMeanAmpl_4,PhrenMeanAmpl_4,Evolution_4,,
+Evolution_4,Evolution_4,,,

@@ -1,0 +1,14 @@
+180d_2to3
+'1st
+ALS-FRS_2
+R_2
+SpO2min_2
+PhrenMeanLat_2
+Evolution_2
+180d_2to3
+'1st
+ALS-FRS_2
+R_2
+SpO2min_2
+PhrenMeanLat_2
+Evolution_2

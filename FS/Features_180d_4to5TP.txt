@@ -1,0 +1,12 @@
+180d_4to5
+'Envolved
+ALS-FRS_4
+'SpO2<90\%_4'
+PhrenMeanLat_4
+Evolution_4
+180d_4to5
+'Envolved
+ALS-FRS_4
+'SpO2<90\%_4'
+PhrenMeanLat_4
+Evolution_4

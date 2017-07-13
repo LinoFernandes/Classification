@@ -27,7 +27,7 @@ NTPspSVM_FS = []
 NTPspRF_FS = []
 BeginsTotal = []
 
-window = 90
+window = 180
 for ntp in range(2, 6):
     Begins = np.array(range(0, ntp))
     counter += 1
@@ -122,11 +122,13 @@ for ntp in range(2, 6):
                     mapper = Classifier(classname="weka.classifiers.misc.InputMappedClassifier", options=["-W", "weka.classifiers.bayes.NaiveBayes", "--", "-K"])
                     if not os.path.exists(directory):
                         os.makedirs(directory)
-                    completeName = os.path.join(directory, 'Features_' + str(window) + 'd_' + str(ntp) +'TP.txt')
+                    completeName = os.path.join(directory, 'Features_' + str(window) + 'd_' +str(begin)+'to'+ str(ntp) +'TP.txt')
                     Attr = open(completeName,'a')
                     Attr.write(str(window) + 'd_' + str(begin) + 'to' + str(ntp) + '\n')
                     for attribute in FSdata.attributes():
-                        Attr.write(str(attribute) + '\n')
+                        aux = str(attribute)
+                        aux = aux.split()
+                        Attr.write(aux[1] + '\n')
                 elif classifier == 1:
                     mapper = Classifier(classname="weka.classifiers.misc.InputMappedClassifier", options=["-W", "weka.classifiers.functions.SMO", "--", "-K","weka.classifiers.functions.supportVector.PolyKernel -E 2.0"])
                 else:

@@ -1,0 +1,10 @@
+365d_3to4
+Name
+'Onset
+'1st
+ALS-FRS_3
+ALS-FRS-R_3
+R_3
+'Dips/h<4\%_3'
+Pattern_3
+Evolution_3

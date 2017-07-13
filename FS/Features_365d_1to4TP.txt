@@ -1,0 +1,16 @@
+365d_1to4
+Name
+'1st
+ALS-FRS_1
+ALS-FRSb_1
+'Dips/h<4\%_1'
+PO2_1
+ALS-FRS-R_2
+SpO2mean_2
+SpO2min_2
+Pattern_2
+PhrenMeanLat_2
+ALS-FRS_3
+ALS-FRS-R_3
+R_3
+Evolution_3

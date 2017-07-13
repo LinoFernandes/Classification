@@ -1,0 +1,17 @@
+90d_0to4,90d_1to4,90d_2to4,90d_3to4
+Name,Name,Name,Name
+Gender,Gender,Gender,Gender
+'1st,'1st,'1st,'1st
+PCO2_0,R_2,R_2,ALS-FRS_3
+PhrenMeanLat_0,SpO2mean_2,SpO2mean_2,R_3
+R_2,'Dips/h<4\%_2','Dips/h<4\%_2','SpO2<90\%_3'
+SpO2mean_2,PhrenMeanLat_2,PhrenMeanLat_2,'Dips/h<4\%_3'
+'SpO2<90\%_2',ALS-FRS_3,ALS-FRS_3,'Dips/h<3\%_3'
+PhrenMeanLat_2,R_3,R_3,'\%MEP_3'
+R_3,'SpO2<90\%_3','SpO2<90\%_3',PhrenMeanLat_3
+'SpO2<90\%_3','Dips/h<4\%_3','Dips/h<4\%_3',Evolution_3
+'Dips/h<4\%_3','Dips/h<3\%_3','Dips/h<3\%_3',
+'Dips/h<3\%_3','\%MEP_3','\%MEP_3',
+'\%MEP_3',PhrenMeanLat_3,PhrenMeanLat_3,
+PhrenMeanLat_3,Evolution_3,Evolution_3,
+Evolution_3,,,

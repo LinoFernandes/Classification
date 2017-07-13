@@ -1,0 +1,13 @@
+90d_0to5,90d_1to5,90d_2to5,90d_3to5,90d_4to5
+'Dips4\%_1','Dips4\%_1',ALS-FRS-R_2,ALS-FRS-R_3,ALS-FRS_4
+'Dips/h<4\%_1',ALS-FRS-R_2,ALS-FRS_4,ALS-FRS_4,ALS-FRS-R_4
+ALS-FRS-R_2,ALS-FRS_4,SpO2min_4,ALS-FRS-R_4,SpO2min_4
+SpO2min_2,SpO2min_4,'SpO2<90\%_4',ALS-FRSb_4,'SpO2<90\%_4'
+'Dips/h<4\%_2','SpO2<90\%_4',Pattern_4,SpO2mean_4,Pattern_4
+ALS-FRS_4,Pattern_4,Evolution_4,SpO2min_4,Evolution_4
+ALS-FRS-R_4,Evolution_4,,'SpO2<90\%_4',
+SpO2mean_4,,,Pattern_4,
+SpO2min_4,,,Evolution_4,
+'SpO2<90\%_4',,,,
+Pattern_4,,,,
+Evolution_4,,,,

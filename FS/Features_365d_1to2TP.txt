@@ -1,0 +1,12 @@
+365d_1to2
+Name
+'Age
+'1st
+ALS-FRS_1
+ALS-FRS-R_1
+ALS-FRSb_1
+R_1
+SpO2mean_1
+SpO2min_1
+PhrenMeanAmpl_1
+Evolution_1

@@ -1,0 +1,14 @@
+180d_0to4,180d_1to4,180d_2to4,180d_3to4
+Name,Name,Name,Name
+'1st,'1st,'1st,'1st
+PCO2_0,ALS-FRS-R_1,ALS-FRS-R_2,ALS-FRS-R_3
+ALS-FRS-R_1,ALS-FRS-R_2,SpO2mean_2,R_3
+ALS-FRS-R_2,SpO2mean_2,'Dips4\%_2','SpO2<90\%_3'
+SpO2mean_2,'Dips4\%_2','Dips/h<3\%_2','Dips/h<4\%_3'
+'Dips4\%_2','Dips/h<3\%_2',ALS-FRS-R_3,'\%FVC_3'
+'Dips/h<3\%_2',ALS-FRS-R_3,R_3,Evolution_3
+ALS-FRS-R_3,R_3,'SpO2<90\%_3',
+R_3,'Dips/h<4\%_3','Dips/h<4\%_3',
+'Dips/h<4\%_3','\%VC_3','\%FVC_3',
+'\%VC_3',Evolution_3,Evolution_3,
+Evolution_3,,,

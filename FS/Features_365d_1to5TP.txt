@@ -1,0 +1,15 @@
+365d_1to5
+Name
+'Dips/h<4\%_1'
+'Dips/h<3\%_1'
+ALS-FRS-R_2
+ALS-FRSb_2
+PhrenMeanArea_2
+ALS-FRS_3
+ALS-FRS-R_3
+Pattern_3
+ALS-FRS_4
+ALS-FRS-R_4
+ALS-FRSb_4
+PhrenMeanAmpl_4
+Evolution_4

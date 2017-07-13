@@ -1,0 +1,13 @@
+90d_0to2,90d_1to2
+SpO2mean_0,ALS-FRS-R_1
+'SpO2<90\%_0',R_1
+'\%FVC_0',SpO2mean_1
+PhrenMeanLat_0,'SpO2<90\%_1'
+ALS-FRS_1,'\%FVC_1'
+R_1,PhrenMeanAmpl_1
+SpO2mean_1,PhrenMeanArea_1
+'SpO2<90\%_1',Evolution_1
+'\%FVC_1',
+PhrenMeanAmpl_1,
+PhrenMeanArea_1,
+Evolution_1,

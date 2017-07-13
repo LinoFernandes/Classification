@@ -1,0 +1,14 @@
+90d_2to5
+ALS-FRS-R_2
+ALS-FRS_4
+SpO2min_4
+'SpO2<90\%_4'
+Pattern_4
+Evolution_4
+90d_2to5
+ALS-FRS-R_2
+ALS-FRS_4
+SpO2min_4
+'SpO2<90\%_4'
+Pattern_4
+Evolution_4

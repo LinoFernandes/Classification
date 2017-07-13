@@ -1,0 +1,13 @@
+365d_3to5
+Name
+ALS-FRS_3
+ALS-FRS-R_3
+ALS-FRSb_3
+Pattern_3
+ALS-FRS_4
+ALS-FRS-R_4
+ALS-FRSb_4
+R_4
+Pattern_4
+PhrenMeanAmpl_4
+Evolution_4
