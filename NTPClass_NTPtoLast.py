@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 from weka.core.classes import from_commandline
 
 os.environ["JAVA_HOME"] = "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk"
-jvm.start()
+jvm.start(class_path=['/Users/Lino/wekafiles/packages/SMOTE/SMOTE.jar','/Users/Lino/wekafiles/packages/RerankingSearch/RerankingSearch.jar','/Applications/weka-3-9-1-oracle-jvm.app/Contents/Java/weka.jar'])
 
 Window = np.array([90, 180, 365])
 
@@ -58,6 +58,7 @@ for ntp in range(2,6):
                 ReplaceMV = Filter(classname="weka.filters.unsupervised.attribute.ReplaceMissingValues")
                 ReplaceMV.inputformat(data)
                 data = ReplaceMV.filter(data)
+
 
                 from weka.classifiers import Classifier
                 if classifier == 0:
