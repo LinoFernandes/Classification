@@ -1,0 +1,111 @@
+@relation '90d_5to5-weka.filters.unsupervised.attribute.Remove-R14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32-weka.filters.supervised.attribute.AttributeSelection-Eweka.attributeSelection.CfsSubsetEval -P 1 -E 1-Sweka.attributeSelection.RerankingSearch -method 2 -blockSize 20 -rankingMeasure 0 -search \"weka.attributeSelection.GreedyStepwise -T -1.7976931348623157E308 -N -1 -num-slots 1\"-weka.filters.unsupervised.attribute.ReplaceMissingValues'
+
+@attribute 'El Escorial reviewed criteria' {pro,def,pos,PMA,PLS}
+@attribute 'Envolved segment - 1st symptoms' {LL,UL,B}
+@attribute 'Evolution patternB' {para,'para cruz','hemi cruz',CROSSED,hemi}
+@attribute '1st symptoms - 1st visit' numeric
+@attribute ALS-FRS_5 numeric
+@attribute ALS-FRSb_5 numeric
+@attribute Evolution_5 {N,Y}
+
+@data
+pro,LL,'para cruz',52.7,26,11,N
+def,LL,'para cruz',14.6,24,10,Y
+pro,LL,para,12.4,34,12,N
+pro,UL,'para cruz',12.2,33,9,N
+pro,LL,'para cruz',9.2,14,10,Y
+pro,UL,'para cruz',41.4,32,10,N
+def,B,'hemi cruz',14.1,19,4,Y
+pro,LL,'para cruz',5.4,30,11,N
+pos,LL,'para cruz',11.8,37,12,N
+pro,UL,'hemi cruz',16.3,30,11,N
+pro,UL,'para cruz',25.3,27,10,N
+PMA,UL,para,0.7,35,12,N
+PMA,LL,'hemi cruz',8.1,23,12,N
+PMA,LL,'para cruz',17.1,25,12,N
+pos,LL,'para cruz',46.7,28.591398,9.784946,N
+pro,LL,'para cruz',24.5,30,12,N
+pro,LL,CROSSED,5.1,23,9,N
+pro,LL,para,26.6,29,12,N
+pos,LL,'para cruz',5.9,25,9,N
+PLS,B,para,85.9,26,9,N
+pro,UL,para,21.8,33,12,N
+pos,LL,'para cruz',14.3,28,10,N
+pro,LL,'para cruz',14.5,34,12,N
+PMA,LL,'para cruz',14.7,37,12,N
+pro,LL,CROSSED,10,28,11,N
+pro,UL,'para cruz',10.1,20,9,N
+pro,LL,'para cruz',12.4,33,12,N
+pos,LL,'para cruz',14.1,26,12,N
+PLS,B,para,37.2,28.591398,9.784946,N
+PMA,LL,'para cruz',32.5,38,12,N
+pro,B,'para cruz',8.3,27,3,Y
+pro,LL,para,12.5,27,12,N
+pro,LL,'para cruz',60.9,29,12,N
+def,LL,para,69.6,21,12,N
+pro,B,'para cruz',4.1,17,2,N
+def,B,'hemi cruz',11.2,27,2,N
+pro,LL,hemi,12.7,28.591398,9.784946,Y
+pro,LL,'para cruz',23.5,30,12,N
+pro,UL,CROSSED,26,19,10,N
+pro,LL,'para cruz',14.5,23,10,N
+pro,UL,'para cruz',15.1,8,4,N
+pro,B,'para cruz',11,31,3,N
+pro,UL,para,3,25,9,Y
+pro,B,'para cruz',10.8,24,6,N
+def,B,para,11.8,20,0,Y
+pro,B,para,12.6,32,4,N
+pro,LL,hemi,6.6,25,10,Y
+pro,UL,para,18,24,9,Y
+pro,UL,'para cruz',68.8,37,12,N
+PMA,UL,'para cruz',9.2,34,12,N
+def,UL,'para cruz',12,18,12,N
+pro,LL,para,16.3,34,12,N
+def,B,'para cruz',12.7,8,5,Y
+pro,LL,'para cruz',28.9,34,8,N
+PLS,LL,'para cruz',49,35,12,N
+pro,UL,'para cruz',13.4,26,9,N
+pro,LL,'hemi cruz',18.3,31,12,N
+pro,LL,'hemi cruz',37.3,15,12,N
+pro,LL,'hemi cruz',4.9,16,8,N
+PMA,UL,para,45.3,34,12,N
+pro,B,'para cruz',18.9,29,2,N
+pos,LL,para,23,26,11,N
+pro,UL,'para cruz',24.7,31,12,N
+pro,LL,'para cruz',13.2,33,11,N
+pro,LL,'para cruz',6.7,28.591398,9.784946,N
+pos,UL,'para cruz',19.8,33,12,N
+pos,UL,'para cruz',14,38,12,N
+pro,UL,'para cruz',29,35,11,N
+def,B,'para cruz',6.3,28.591398,9.784946,N
+PMA,UL,'para cruz',22.7,22,12,N
+pro,UL,'para cruz',6.5,14,4,N
+PLS,LL,'para cruz',27.3,30,10,N
+PMA,LL,'para cruz',7.7,36,12,N
+pro,B,'para cruz',9.1,35,8,Y
+pos,LL,'para cruz',18.8,36,12,N
+PMA,LL,'para cruz',33.6,36,12,N
+PMA,LL,'para cruz',46.1,38,12,N
+pro,LL,'para cruz',120.3,36,12,N
+pro,B,'para cruz',6.9,33,5,N
+pos,LL,'para cruz',219.3,36,12,N
+def,B,'para cruz',7.2,6,2,Y
+PMA,UL,'para cruz',16.1,36,12,N
+pro,B,'para cruz',10.8,18,2,N
+PLS,LL,'para cruz',120,33,10,N
+pro,LL,'para cruz',24.7,36,10,N
+pro,UL,'para cruz',8.1,35,11,N
+pro,LL,'para cruz',12.7,37,12,N
+PMA,UL,'para cruz',37.1,35,12,N
+PLS,B,'para cruz',16.4,31,8,N
+pro,UL,'para cruz',16.7,31,12,N
+pro,LL,'para cruz',7.4,28.591398,9.784946,N
+pro,LL,'para cruz',4.6,31,12,N
+pro,LL,'para cruz',15.6,40,12,Y
+pro,UL,'para cruz',15.2,22,12,N
+pro,LL,'para cruz',24.8,38,12,N
+pro,UL,'para cruz',74.4,35,12,N
+PLS,LL,'para cruz',56.4,37,12,N
+pro,UL,'para cruz',9.1,12,8,Y
+pro,UL,'para cruz',6.1,39,12,N
+pro,UL,'para cruz',26.1,28.591398,9.784946,N

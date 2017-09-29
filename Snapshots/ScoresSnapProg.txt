@@ -1,0 +1,10 @@
+k,DS,AUC
+90,Slow,72.03
+90,Neutral,64.16
+90,Fast,77.63
+180,Slow,63.94
+180,Neutral,73.48
+180,Fast,69.23
+365,Slow,74.39
+365,Neutral,77.52
+365,Fast,75.93

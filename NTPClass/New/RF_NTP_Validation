@@ -1,0 +1,36 @@
+Tester:     weka.experiment.PairedCorrectedTTester -G 4,5,6 -D 1 -R 2 -S 0.1 -result-matrix "weka.experiment.ResultMatrixPlainText -mean-prec 2 -stddev-prec 2 -col-name-width 0 -row-name-width 25 -mean-width 2 -stddev-width 2 -sig-width 1 -count-width 5 -print-col-names -print-row-names -enum-col-names"
+Analysing:  Area_under_ROC
+Datasets:   15
+Resultsets: 4
+Confidence: 0.1 (two tailed)
+Sorted by:  Area_under_ROC
+Date:       9/10/17 2:31 PM
+
+
+Dataset                   (1) trees.R | (2) tree (3) tree (4) tree
+------------------------------------------------------------------
+90d_3                    (100)   0.66 |   0.69     0.70     0.72  
+90d_2                    (100)   0.66 |   0.68     0.69     0.70  
+180d_2                   (100)   0.69 |   0.71     0.72     0.73 v
+90d_6                    (100)   0.71 |   0.73     0.75     0.76  
+180d_3                   (100)   0.71 |   0.74     0.75     0.76 v
+90d_4                    (100)   0.71 |   0.75     0.77     0.78 v
+180d_6                   (100)   0.71 |   0.74     0.74     0.75  
+365d_6                   (100)   0.72 |   0.76     0.76     0.76  
+90d_5                    (100)   0.74 |   0.77     0.78     0.78  
+365d_2                   (100)   0.75 |   0.77 v   0.78 v   0.79 v
+180d_4                   (100)   0.75 |   0.76     0.77     0.78  
+180d_5                   (100)   0.78 |   0.80     0.80     0.81  
+365d_3                   (100)   0.79 |   0.80     0.81     0.81  
+365d_4                   (100)   0.80 |   0.82     0.83     0.83  
+365d_5                   (100)   0.83 |   0.85     0.86     0.86  
+------------------------------------------------------------------
+                              (v/ /*) | (1/14/0) (1/14/0) (4/11/0)
+
+
+Key:
+(1) trees.RandomForest '-P 100 -I 5 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1' 1116839470751428698
+(2) trees.RandomForest '-P 100 -I 10 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1' 1116839470751428698
+(3) trees.RandomForest '-P 100 -I 15 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1' 1116839470751428698
+(4) trees.RandomForest '-P 100 -I 20 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1' 1116839470751428698
+

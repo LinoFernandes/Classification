@@ -1,0 +1,134 @@
+@relation '365d_2-weka.filters.unsupervised.attribute.Remove-R14,15,16,17,18,19,20,21,37,38,39,40,41,42,43,44,46,50,51,52,53,54,55-weka.filters.supervised.attribute.AttributeSelection-Eweka.attributeSelection.CfsSubsetEval -P 1 -E 1-Sweka.attributeSelection.RerankingSearch -method 2 -blockSize 20 -rankingMeasure 0 -search \"weka.attributeSelection.GreedyStepwise -P 1 -T -1.7976931348623157E308 -N -1 -num-slots 1\"-weka.filters.unsupervised.attribute.ReplaceMissingValues-weka.filters.supervised.instance.SMOTE-C0-K5-P200.0-S1'
+
+@attribute 'Evolution patternB' {para,'para cruz',CROSSED,'hemi cruz',hemi}
+@attribute '1st symptoms - 1st visit' numeric
+@attribute Evolution_1 {N,Y}
+
+@data
+'para cruz',33.6,N
+para,14.5,N
+'para cruz',6.9,Y
+'para cruz',24.4,Y
+'para cruz',10.4,Y
+'para cruz',6.9,N
+'para cruz',7.2,Y
+'para cruz',14.2,Y
+'para cruz',37.5,N
+'para cruz',30.4,Y
+'para cruz',16.6,Y
+para,4.6,N
+'para cruz',26.5,Y
+'para cruz',6.1,Y
+para,17.8,N
+'para cruz',10,Y
+'para cruz',23,N
+'para cruz',10,Y
+para,2,Y
+para,4.4,Y
+'para cruz',26.3,Y
+'para cruz',9.2,Y
+'para cruz',41.4,N
+'para cruz',19.3,N
+para,10.1,Y
+'para cruz',13.5,Y
+para,14.8,Y
+para,3.3,Y
+'para cruz',9.9,Y
+'para cruz',4.6,Y
+para,0.7,N
+para,4.1,N
+'para cruz',3.5,Y
+'para cruz',17.5,Y
+'para cruz',9.8,Y
+'para cruz',17.1,N
+'para cruz',7,Y
+'para cruz',12.5,Y
+'para cruz',24.5,N
+CROSSED,17,Y
+para,26.6,N
+para,85.9,N
+'para cruz',3.4,Y
+'para cruz',12.2,Y
+'para cruz',14.7,N
+para,9.6,Y
+'para cruz',98,N
+'para cruz',60.9,N
+para,23.7,N
+'hemi cruz',9.9,Y
+'para cruz',7.4,N
+'para cruz',6.4,Y
+para,18,N
+'para cruz',9.2,N
+'para cruz',8.8,Y
+para,16.3,N
+para,24.5,Y
+'para cruz',13.4,N
+'para cruz',6.2,Y
+para,12.7,Y
+'para cruz',3.9,Y
+'para cruz',244,N
+para,18.1,N
+'para cruz',6.4,N
+hemi,12.3,N
+'para cruz',18.9,N
+'para cruz',7.8,Y
+'para cruz',12.2,Y
+CROSSED,8.6,Y
+'para cruz',33.991846,N
+'para cruz',31.709795,N
+'para cruz',16.213055,N
+'para cruz',14.486542,N
+'para cruz',7.26703,N
+'para cruz',4.247854,N
+'para cruz',39.399641,N
+'para cruz',33.712053,N
+para,3.16089,N
+para,4.924708,N
+para,17.916671,N
+para,17.847024,N
+'para cruz',20.441713,N
+'para cruz',20.150713,N
+'para cruz',41.328183,N
+'para cruz',33.6576,N
+para,19.017996,N
+para,18.577408,N
+para,3.081307,N
+para,2.072921,N
+para,4.195101,N
+para,4.135259,N
+para,17.58626,N
+para,17.640397,N
+'para cruz',24.395833,N
+'para cruz',25.328494,N
+'para cruz',25.421032,N
+'para cruz',25.760639,N
+'para cruz',90.585731,N
+'para cruz',93.067789,N
+'para cruz',15.066083,N
+'para cruz',14.569505,N
+'para cruz',62.30183,N
+'para cruz',93.466741,N
+'para cruz',30.769891,N
+'para cruz',45.697813,N
+'para cruz',22.892423,N
+'para cruz',23.258717,N
+'para cruz',8.013647,N
+'para cruz',7.154274,N
+para,18.123147,N
+para,17.856536,N
+'para cruz',9.164616,N
+'para cruz',9.925125,N
+para,16.940926,N
+para,17.181724,N
+'para cruz',14.084744,N
+'para cruz',13.993443,N
+'para cruz',102.262264,N
+'para cruz',211.146732,N
+para,19.214766,N
+para,18.769052,N
+'para cruz',5.612639,N
+'para cruz',6.384231,N
+'para cruz',13.194896,N
+'para cruz',14.236786,N
+para,18.010935,N
+para,18.339558,N

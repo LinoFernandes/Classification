@@ -1,0 +1,29 @@
+k,TP,Dataset,NB,RF\\
+\multirow{8}{*}{90d} & \multirow{2}{*}{2} & First & 60.76 & 66.2\\
+\multirow{8}{*}{90d} & \multirow{2}{*}{2} & Last & 55.4 & 63.65\\
+ &  & First & 73.28 & 70.83\\
+ &  & Last & 68.26 & 74.14\\
+ &  & First & 65.18 & 76.19\\
+ &  & Last & 70.24 & 77.53\\
+ &  & First & 55.76 & 41.82\\
+ &  & Last & 55.76 & 52.73\\
+\multirow{8}{*}{180d} & \multirow{2}{*}{2} & First & 66.25 & 66.67\\
+\multirow{8}{*}{180d} & \multirow{2}{*}{2} & Last & 63.84 & 63.68\\
+ &  & First & 66.08 & 71.09\\
+ &  & Last & 65.96 & 70.09\\
+ &  & First & 78.19 & 83.58\\
+ &  & Last & 78.43 & 79.66\\
+ &  & First & 63.27 & 59.27\\
+ &  & Last & 63.27 & 62.55\\
+\multirow{8}{*}{365d} & \multirow{2}{*}{2} & First & 72.88 & 74.69\\
+\multirow{8}{*}{365d} & \multirow{2}{*}{2} & Last & 68.44 & 70.62\\
+ &  & First & 79.79 & 78.0\\
+ &  & Last & 78.72 & 75.74\\
+ &  & First & 80.71 & 71.06\\
+ &  & Last & 77.65 & 72.0\\
+ &  & First & 66.25 & 68.75\\
+ &  & Last & 75.83 & 79.17\\
+k,TP,Dataset,NB,RF\\
+k,TP,Dataset,NB,RF\\
+k,TP,Dataset,NB,RF\\
+k,TP,Dataset,NB,RF\\

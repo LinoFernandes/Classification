@@ -1,0 +1,188 @@
+@relation '365d_1-weka.filters.unsupervised.attribute.Remove-R14,15,16,17,18,19,20,21-weka.filters.supervised.attribute.AttributeSelection-Eweka.attributeSelection.CfsSubsetEval -P 1 -E 1-Sweka.attributeSelection.RerankingSearch -method 2 -blockSize 20 -rankingMeasure 0 -search \"weka.attributeSelection.GreedyStepwise -P 1,2 -T -1.7976931348623157E308 -N -1 -num-slots 1\"-weka.filters.unsupervised.attribute.ReplaceMissingValues-weka.filters.supervised.instance.SMOTE-C0-K5-P200.0-S1'
+
+@attribute 'Evolution patternB' {para,'para cruz',hemi,'hemi cruz',CROSSED}
+@attribute ALS-FRSb_0 numeric
+@attribute '\%MEP_0' numeric
+@attribute Evolution_0 {N,Y}
+
+@data
+'para cruz',10.102941,64.03,N
+para,4,67.202,N
+'para cruz',9,46,Y
+'para cruz',8,67.202,Y
+'para cruz',9,77.72,Y
+'para cruz',10.102941,104,N
+'para cruz',10,62.7,Y
+'para cruz',10.102941,83.7,N
+'para cruz',12,75.5,Y
+'para cruz',12,67.202,N
+'para cruz',12,100,Y
+'para cruz',10.102941,67.202,N
+'para cruz',8,35.59,Y
+para,12,67.202,N
+'para cruz',10.102941,56.4,Y
+'para cruz',12,50,Y
+'para cruz',11,62.17,Y
+para,12,88.06,N
+'para cruz',12,122,Y
+'para cruz',11,67.202,N
+'para cruz',12,67.202,N
+'para cruz',10.102941,67.202,Y
+'para cruz',10.102941,37.4,Y
+'para cruz',12,73.42,Y
+para,12,64,Y
+para,10.102941,67.5,Y
+'para cruz',10.102941,49.96,Y
+'para cruz',12,60.1,N
+'para cruz',9,67.202,N
+'para cruz',9,67.202,N
+'para cruz',10.102941,53.8,Y
+'para cruz',12,85.5,Y
+para,6,16.4,Y
+'para cruz',8,81.5,Y
+para,7,19.35,Y
+para,12,95.69,N
+'para cruz',12,38.01,N
+'para cruz',8,44.5,Y
+'para cruz',8,67.202,Y
+'para cruz',10.102941,64,Y
+hemi,8,30.1,Y
+para,12,79.97,N
+para,10.102941,37.4,N
+'para cruz',12,96.5,Y
+'para cruz',10.102941,45.6,N
+'para cruz',11,82.6,Y
+'hemi cruz',12,72.63,Y
+'para cruz',10.102941,67.202,Y
+'para cruz',12,61.4,N
+'para cruz',10,58.33,Y
+'para cruz',12,123.4,Y
+'para cruz',12,67,N
+CROSSED,12,47.54,Y
+para,10.102941,67.202,N
+'para cruz',9,42.71,Y
+para,9,57.9,N
+'para cruz',12,90.42,N
+'para cruz',10,85.36,Y
+'para cruz',10.102941,116,N
+para,10.102941,67.202,N
+para,9,41.74,Y
+'para cruz',10.102941,86.13,N
+'para cruz',12,102.5,N
+'hemi cruz',7,35.8,Y
+para,12,67.202,N
+para,10.102941,15.1,Y
+para,9,48.1,Y
+para,7,57.38,Y
+'para cruz',8,19.38,Y
+'hemi cruz',8,40.4,Y
+'para cruz',10.102941,105,N
+'para cruz',10.102941,15.5,N
+para,12,83.7,N
+'para cruz',12,87.62,N
+para,7,67.202,Y
+'para cruz',6,28.98,Y
+para,12,107.6,N
+para,10.102941,67.202,N
+'para cruz',12,67.202,N
+'para cruz',11,48.92,Y
+'para cruz',5,67.202,Y
+'para cruz',10.102941,149.2,N
+para,9,81.6,Y
+'para cruz',12,99.38,N
+'hemi cruz',12,67.202,Y
+'para cruz',4,67.202,N
+para,10.102941,67.202,N
+'para cruz',9,92.94,N
+hemi,10.102941,102,N
+'para cruz',12,67.202,N
+'para cruz',10,58.24,Y
+'para cruz',10.102941,67.202,Y
+'para cruz',12,62.07,Y
+CROSSED,12,61,N
+para,10.102941,65.322399,N
+para,10.102941,67.099722,N
+para,4.93214,67.202,N
+para,9.780675,67.202,N
+'para cruz',10.102941,103.681321,N
+'para cruz',11.06377,103.464232,N
+para,11.209598,83.7,N
+para,10.820413,83.7,N
+'para cruz',12,67.202,N
+'para cruz',12,67.202,N
+para,10.102941,67.202,N
+para,10.102941,67.202,N
+'para cruz',12,67.202,N
+'para cruz',12,67.202,N
+'para cruz',11.75988,87.49229,N
+'para cruz',11.251571,87.640028,N
+'para cruz',11.94984,67.202,N
+'para cruz',11.038327,67.202,N
+'para cruz',12,67.202,N
+'para cruz',12,67.202,N
+'para cruz',12,66.161159,N
+'para cruz',12,63.578535,N
+para,9.70243,67.202,N
+para,9.559919,67.202,N
+para,9.150916,67.202,N
+para,10.061487,67.202,N
+'para cruz',11.540004,100.745301,N
+'para cruz',10.236553,93.519726,N
+'para cruz',12,47.785626,N
+'para cruz',10.524247,37.872736,N
+para,12,85.948177,N
+para,12,82.347865,N
+'para cruz',11.344426,45.864224,N
+'para cruz',10.102941,43.197763,N
+'para cruz',9.631597,46.277998,N
+'para cruz',10.393658,40.206737,N
+'para cruz',12,61.138274,N
+'para cruz',11.085879,61.662343,N
+'para cruz',12,67.05737,N
+'para cruz',12,67.014958,N
+para,10.102941,67.202,N
+para,10.102941,67.202,N
+'para cruz',9,58.067463,N
+'para cruz',9.820864,60.494417,N
+'para cruz',12,94.969369,N
+'para cruz',10.317794,90.232515,N
+'para cruz',10.102941,112.709611,N
+'para cruz',10.102941,105.306513,N
+para,10.102941,67.202,N
+para,10.102941,67.202,N
+'para cruz',10.4856,90.408846,N
+'para cruz',10.574339,89.162422,N
+'para cruz',10.524635,102.391797,N
+'para cruz',11.953575,102.274496,N
+'para cruz',12,67.202,N
+'para cruz',12,67.202,N
+'para cruz',10.102941,102.824321,N
+'para cruz',11.32467,105.287274,N
+'para cruz',11.687972,32.27675,N
+'para cruz',11.29885,36.409397,N
+para,12,84.752223,N
+para,11.919985,83.7,N
+'para cruz',12,87.748621,N
+'para cruz',12,87.50213,N
+'para cruz',10.367586,104.224373,N
+'para cruz',11.24012,103.434935,N
+para,10.102941,67.202,N
+para,10.56288,67.202,N
+'para cruz',12,67.202,N
+'para cruz',12,67.202,N
+'para cruz',10.102941,114.319473,N
+'para cruz',11.935982,102.662355,N
+'para cruz',12,101.717006,N
+'para cruz',12,96.959056,N
+'para cruz',9.494192,67.202,N
+'para cruz',8.601406,67.202,N
+para,10.102941,67.202,N
+para,10.102941,67.202,N
+'para cruz',10.352892,90.565602,N
+'para cruz',9.072129,86.552012,N
+'para cruz',11.202025,104.919822,N
+'para cruz',10.808534,102.428564,N
+'para cruz',12,67.181937,N
+'para cruz',12,67.202,N
+'para cruz',12,60.108329,N
+'para cruz',12,60.362662,N

@@ -1,0 +1,25 @@
+Tester:     weka.experiment.PairedCorrectedTTester -G 4,5,6 -D 1 -R 2 -S 0.05 -result-matrix "weka.experiment.ResultMatrixPlainText -mean-prec 2 -stddev-prec 2 -col-name-width 0 -row-name-width 25 -mean-width 2 -stddev-width 2 -sig-width 1 -count-width 5 -print-col-names -print-row-names -enum-col-names"
+Analysing:  Area_under_ROC
+Datasets:   6
+Resultsets: 2
+Confidence: 0.05 (two tailed)
+Sorted by:  Area_under_ROC
+Date:       9/11/17 2:48 PM
+
+
+Dataset                   (1) bayes.N | (2) baye
+------------------------------------------------
+'180d_1-weka.filters.unsu(100)   0.72 |   0.75  
+'180d_2-weka.filters.unsu(100)   0.76 |   0.81  
+'365d_1-weka.filters.unsu(100)   0.79 |   0.80  
+'90d_2-weka.filters.unsup(100)   0.79 |   0.81  
+'90d_1-weka.filters.unsup(100)   0.84 |   0.84  
+'365d_2-weka.filters.unsu(100)   0.87 |   0.86  
+------------------------------------------------
+                              (v/ /*) |  (0/6/0)
+
+
+Key:
+(1) bayes.NaiveBayes '' 5995231201785697655
+(2) bayes.NaiveBayes -K 5995231201785697655
+

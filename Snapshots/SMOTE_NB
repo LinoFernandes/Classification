@@ -1,0 +1,53 @@
+Tester:     weka.experiment.PairedCorrectedTTester -G 3,4,5 -D 1 -R 2 -S 0.05 -result-matrix "weka.experiment.ResultMatrixPlainText -mean-prec 2 -stddev-prec 2 -col-name-width 0 -row-name-width 25 -mean-width 2 -stddev-width 2 -sig-width 1 -count-width 5 -print-col-names -print-row-names -enum-col-names"
+Analysing:  Area_under_ROC
+Datasets:   31
+Resultsets: 5
+Confidence: 0.05 (two tailed)
+Sorted by:  Area_under_ROC
+Date:       9/12/17 5:47 AM
+
+
+Dataset                   (1) meta.Fi | (2) meta (3) meta (4) meta (5) meta
+---------------------------------------------------------------------------
+'90d_FOLDS_train_10-weka.  (1)   0.68 |   0.67 *   0.67 *   0.66 *   0.66 *
+'365d_FOLDS_train_5-weka.  (5)   0.70 |   0.71     0.71     0.71     0.71  
+'180d_FOLDS_train_6-weka.  (5)   0.70 |   0.69     0.69     0.69     0.68  
+'180d_FOLDS_train_3-weka.  (5)   0.70 |   0.69     0.69     0.69 *   0.68 *
+'180d_FOLDS_train_10-weka  (3)   0.71 |   0.70 *   0.69 *   0.69 *   0.69 *
+'365d_FOLDS_train_4-weka.  (5)   0.71 |   0.71     0.72     0.72     0.72  
+'180d_FOLDS_train_10-weka  (2)   0.71 |   0.71     0.70     0.70     0.70  
+'180d_FOLDS_train_5-weka.  (5)   0.71 |   0.71     0.70     0.69 *   0.69 *
+'180d_FOLDS_train_8-weka.  (5)   0.71 |   0.71     0.70     0.70     0.70  
+'90d_FOLDS_train_5-weka.f  (5)   0.71 |   0.70 *   0.70 *   0.69 *   0.69 *
+'90d_FOLDS_train_7-weka.f  (5)   0.71 |   0.71     0.70 *   0.70 *   0.69 *
+'90d_FOLDS_train_6-weka.f  (5)   0.71 |   0.71     0.71     0.70     0.70  
+'365d_FOLDS_train_1-weka.  (5)   0.71 |   0.72     0.72     0.72     0.73  
+'90d_FOLDS_train_9-weka.f  (5)   0.71 |   0.71     0.71     0.71     0.70  
+'365d_FOLDS_train_3-weka.  (5)   0.71 |   0.72     0.72     0.72     0.73 v
+'365d_FOLDS_train_6-weka.  (5)   0.72 |   0.73     0.73     0.73     0.73  
+'90d_FOLDS_train_4-weka.f  (5)   0.72 |   0.72     0.71     0.71     0.70  
+'90d_FOLDS_train_3-weka.f  (5)   0.72 |   0.71     0.71     0.71     0.70  
+'180d_FOLDS_train_1-weka.  (5)   0.72 |   0.72     0.71     0.71     0.71 *
+'180d_FOLDS_train_2-weka.  (5)   0.72 |   0.72     0.71     0.71     0.70  
+'90d_FOLDS_train_2-weka.f  (5)   0.73 |   0.72     0.71     0.71     0.70  
+'180d_FOLDS_train_9-weka.  (5)   0.73 |   0.73     0.72     0.72     0.72  
+'365d_FOLDS_train_7-weka.  (5)   0.73 |   0.73     0.73     0.74     0.73  
+'90d_FOLDS_train_8-weka.f  (5)   0.73 |   0.73     0.72     0.71     0.71  
+'90d_FOLDS_train_1-weka.f  (5)   0.73 |   0.73     0.72     0.72     0.72  
+'180d_FOLDS_train_4-weka.  (5)   0.73 |   0.73     0.72     0.71     0.71 *
+'180d_FOLDS_train_7-weka.  (5)   0.74 |   0.73     0.73     0.73     0.73  
+'365d_FOLDS_train_2-weka.  (5)   0.74 |   0.74     0.74     0.74     0.75  
+'365d_FOLDS_train_9-weka.  (5)   0.74 |   0.75     0.75     0.75     0.75  
+'365d_FOLDS_train_10-weka  (5)   0.76 |   0.75     0.76     0.76     0.76  
+'365d_FOLDS_train_8-weka.  (5)   0.76 |   0.76     0.77     0.77     0.77  
+---------------------------------------------------------------------------
+                              (v/ /*) | (0/28/3) (0/27/4) (0/25/6) (1/22/8)
+
+
+Key:
+(1) meta.FilteredClassifier '-F \"supervised.instance.SMOTE -C 0 -K 5 -P 0.0 -S 1\" -W bayes.NaiveBayes' -4523450618538717400
+(2) meta.FilteredClassifier '-F \"supervised.instance.SMOTE -C 0 -K 5 -P 50.0 -S 1\" -W bayes.NaiveBayes' -4523450618538717400
+(3) meta.FilteredClassifier '-F \"supervised.instance.SMOTE -C 0 -K 5 -P 100.0 -S 1\" -W bayes.NaiveBayes' -4523450618538717400
+(4) meta.FilteredClassifier '-F \"supervised.instance.SMOTE -C 0 -K 5 -P 150.0 -S 1\" -W bayes.NaiveBayes' -4523450618538717400
+(5) meta.FilteredClassifier '-F \"supervised.instance.SMOTE -C 0 -K 5 -P 200.0 -S 1\" -W bayes.NaiveBayes' -4523450618538717400
+

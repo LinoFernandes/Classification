@@ -1,0 +1,54 @@
+Tester:     weka.experiment.PairedCorrectedTTester -G 3,4,5 -D 1 -R 2 -S 0.05 -result-matrix "weka.experiment.ResultMatrixPlainText -mean-prec 2 -stddev-prec 2 -col-name-width 0 -row-name-width 25 -mean-width 0 -stddev-width 0 -sig-width 0 -count-width 5 -print-col-names -print-row-names -enum-col-names"
+Analysing:  Area_under_ROC
+Datasets:   33
+Resultsets: 4
+Confidence: 0.05 (two tailed)
+Sorted by:  Area_under_ROC
+Date:       9/19/17 5:31 PM
+
+
+Dataset                   (1) trees.R | (2) tree (3) tree (4) tree
+------------------------------------------------------------------
+'90d_FOLDS_train_7-weka.f  (5)   0.44 |   0.45     0.48     0.52  
+'90d_FOLDS_train_9-weka.f  (5)   0.47 |   0.46     0.47     0.47  
+'90d_FOLDS_train_6-weka.f  (5)   0.51 |   0.54     0.52     0.50  
+'90d_FOLDS_train_8-weka.f  (5)   0.51 |   0.50     0.50     0.51  
+'90d_FOLDS_train_4-weka.f  (5)   0.52 |   0.52     0.53     0.52  
+'90d_FOLDS_train_2-weka.f  (5)   0.53 |   0.52     0.51     0.52  
+'90d_FOLDS_train_1-weka.f  (5)   0.53 |   0.56     0.52     0.50  
+'90d_FOLDS_train_3-weka.f  (5)   0.53 |   0.55     0.52     0.52  
+'365d_FOLDS_train_3-weka.  (5)   0.55 |   0.60     0.62     0.65  
+'365d_FOLDS_train_8-weka.  (5)   0.57 |   0.62     0.62 v   0.64  
+'365d_FOLDS_train_6-weka.  (1)   0.58 |   0.59 v   0.58 *   0.65 v
+'365d_FOLDS_train_5-weka.  (5)   0.59 |   0.61     0.62     0.63  
+'90d_FOLDS_train_5-weka.f  (5)   0.60 |   0.59     0.56     0.56  
+'180d_FOLDS_train_8-weka.  (3)   0.60 |   0.63     0.62     0.63  
+'365d_FOLDS_train_2-weka.  (5)   0.62 |   0.64     0.65     0.66  
+'180d_FOLDS_train_10-weka  (5)   0.62 |   0.63     0.64     0.65  
+'180d_FOLDS_train_7-weka.  (5)   0.63 |   0.63     0.62     0.65  
+'180d_FOLDS_train_4-weka.  (5)   0.64 |   0.63     0.64     0.64  
+'365d_FOLDS_train_1-weka.  (5)   0.64 |   0.70     0.69     0.70  
+'365d_FOLDS_train_10-weka  (1)   0.64 |   0.69 v   0.72 v   0.67 v
+'180d_FOLDS_train_8-weka.  (2)   0.64 |   0.62     0.65     0.71  
+'180d_FOLDS_train_5-weka.  (5)   0.64 |   0.64     0.64     0.65  
+'365d_FOLDS_train_10-weka  (4)   0.64 |   0.67     0.70     0.71 v
+'365d_FOLDS_train_9-weka.  (5)   0.65 |   0.64     0.65     0.69  
+'365d_FOLDS_train_7-weka.  (2)   0.65 |   0.62     0.60     0.62  
+'365d_FOLDS_train_6-weka.  (4)   0.65 |   0.64     0.64     0.66  
+'180d_FOLDS_train_6-weka.  (5)   0.65 |   0.62     0.62     0.63  
+'365d_FOLDS_train_4-weka.  (5)   0.67 |   0.69     0.67     0.67  
+'180d_FOLDS_train_3-weka.  (5)   0.68 |   0.70     0.71     0.69  
+'180d_FOLDS_train_2-weka.  (5)   0.68 |   0.66     0.64     0.67  
+'365d_FOLDS_train_7-weka.  (3)   0.69 |   0.69     0.70     0.73  
+'180d_FOLDS_train_1-weka.  (5)   0.71 |   0.71     0.72     0.72  
+'180d_FOLDS_train_9-weka.  (5)   0.71 |   0.72     0.69     0.69  
+------------------------------------------------------------------
+                              (v/ /*) | (2/31/0) (2/30/1) (3/30/0)
+
+
+Key:
+(1) trees.RandomForest '-P 100 -I 5 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1' 1116839470751428698
+(2) trees.RandomForest '-P 100 -I 10 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1' 1116839470751428698
+(3) trees.RandomForest '-P 100 -I 15 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1' 1116839470751428698
+(4) trees.RandomForest '-P 100 -I 20 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1' 1116839470751428698
+

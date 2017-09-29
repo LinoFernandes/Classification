@@ -1,0 +1,28 @@
+Tester:     weka.experiment.PairedCorrectedTTester -G 4,5,6 -D 1 -R 2 -S 0.05 -result-matrix "weka.experiment.ResultMatrixPlainText -mean-prec 2 -stddev-prec 2 -col-name-width 0 -row-name-width 25 -mean-width 2 -stddev-width 2 -sig-width 1 -count-width 5 -print-col-names -print-row-names -enum-col-names"
+Analysing:  Area_under_ROC
+Datasets:   6
+Resultsets: 5
+Confidence: 0.05 (two tailed)
+Sorted by:  Area_under_ROC
+Date:       9/11/17 5:38 PM
+
+
+Dataset                   (1) meta.Fi | (2) meta (3) meta (4) meta (5) meta
+---------------------------------------------------------------------------
+'180d_1-weka.filters.unsu(100)   0.77 |   0.77     0.77     0.76     0.75  
+'90d_1-weka.filters.unsup(100)   0.79 |   0.79     0.79     0.79     0.78  
+'90d_2-weka.filters.unsup(100)   0.86 |   0.85     0.84     0.83     0.83  
+'180d_2-weka.filters.unsu(100)   0.86 |   0.86     0.86     0.86     0.86  
+'365d_2-weka.filters.unsu(100)   0.86 |   0.86     0.86     0.86     0.86  
+'365d_1-weka.filters.unsu(100)   0.87 |   0.86     0.86     0.85     0.85  
+---------------------------------------------------------------------------
+                              (v/ /*) |  (0/6/0)  (0/6/0)  (0/6/0)  (0/6/0)
+
+
+Key:
+(1) meta.FilteredClassifier '-F \"supervised.instance.SMOTE -C 0 -K 5 -P 0.0 -S 1\" -W trees.RandomForest -- -P 100 -I 20 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1' -4523450618538717400
+(2) meta.FilteredClassifier '-F \"supervised.instance.SMOTE -C 0 -K 5 -P 50.0 -S 1\" -W trees.RandomForest -- -P 100 -I 20 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1' -4523450618538717400
+(3) meta.FilteredClassifier '-F \"supervised.instance.SMOTE -C 0 -K 5 -P 100.0 -S 1\" -W trees.RandomForest -- -P 100 -I 20 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1' -4523450618538717400
+(4) meta.FilteredClassifier '-F \"supervised.instance.SMOTE -C 0 -K 5 -P 150.0 -S 1\" -W trees.RandomForest -- -P 100 -I 20 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1' -4523450618538717400
+(5) meta.FilteredClassifier '-F \"supervised.instance.SMOTE -C 0 -K 5 -P 200.0 -S 1\" -W trees.RandomForest -- -P 100 -I 20 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1' -4523450618538717400
+

@@ -1,0 +1,29 @@
+k,TP,DS,NB,RF\\
+\multirow{8}{*}{90d} & \multirow{2}{*}{2} & First & 28.57 & 83.33\\
+\multirow{8}{*}{90d} & \multirow{2}{*}{2} & Last & 25.64 & 33.33\\
+ &  & First & 57.89 & 0.0\\
+ &  & Last & 33.33 & 100.0\\
+ &  & First & 88.89 & 85.11\\
+ &  & Last & 87.88 & 84.0\\
+ &  & First & 10.0 & 0.0\\
+ &  & Last & 6.67 & 0.0\\
+\multirow{8}{*}{180d} & \multirow{2}{*}{2} & First & 50.98 & 54.17\\
+\multirow{8}{*}{180d} & \multirow{2}{*}{2} & Last & 47.17 & 53.57\\
+ &  & First & 79.07 & 82.22\\
+ &  & Last & 80.49 & 78.72\\
+ &  & First & 86.21 & 87.88\\
+ &  & Last & 84.0 & 84.85\\
+ &  & First & 77.27 & 73.91\\
+ &  & Last & 75.0 & 76.92\\
+\multirow{8}{*}{365d} & \multirow{2}{*}{2} & First & 55.56 & 53.49\\
+\multirow{8}{*}{365d} & \multirow{2}{*}{2} & Last & 55.88 & 51.16\\
+ &  & First & 75.86 & 62.86\\
+ &  & Last & 68.75 & 63.16\\
+ &  & First & 60.0 & 58.33\\
+ &  & Last & 57.14 & 58.82\\
+ &  & First & 70.59 & 72.22\\
+ &  & Last & 75.0 & 75.0\\
+k,TP,DS,NB,RF\\
+k,TP,DS,NB,RF\\
+k,TP,DS,NB,RF\\
+k,TP,DS,NB,RF\\

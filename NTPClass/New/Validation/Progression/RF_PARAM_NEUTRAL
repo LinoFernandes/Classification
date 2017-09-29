@@ -1,0 +1,27 @@
+Tester:     weka.experiment.PairedCorrectedTTester -G 4,5,6 -D 1 -R 2 -S 0.05 -result-matrix "weka.experiment.ResultMatrixPlainText -mean-prec 2 -stddev-prec 2 -col-name-width 0 -row-name-width 25 -mean-width 2 -stddev-width 2 -sig-width 1 -count-width 5 -print-col-names -print-row-names -enum-col-names"
+Analysing:  Area_under_ROC
+Datasets:   6
+Resultsets: 4
+Confidence: 0.05 (two tailed)
+Sorted by:  Area_under_ROC
+Date:       9/11/17 2:40 PM
+
+
+Dataset                   (1) trees.R | (2) tree (3) tree (4) tree
+------------------------------------------------------------------
+'180d_2-weka.filters.unsu(100)   0.77 |   0.78     0.79     0.79  
+'365d_2-weka.filters.unsu(100)   0.82 |   0.84     0.84     0.85  
+'180d_1-weka.filters.unsu(100)   0.83 |   0.85 v   0.86 v   0.86 v
+'90d_2-weka.filters.unsup(100)   0.83 |   0.85     0.85     0.85  
+'365d_1-weka.filters.unsu(100)   0.84 |   0.86 v   0.87 v   0.87 v
+'90d_1-weka.filters.unsup(100)   0.86 |   0.87     0.88     0.88 v
+------------------------------------------------------------------
+                              (v/ /*) |  (2/4/0)  (2/4/0)  (3/3/0)
+
+
+Key:
+(1) trees.RandomForest '-P 100 -I 5 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1' 1116839470751428698
+(2) trees.RandomForest '-P 100 -I 10 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1' 1116839470751428698
+(3) trees.RandomForest '-P 100 -I 15 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1' 1116839470751428698
+(4) trees.RandomForest '-P 100 -I 20 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1' 1116839470751428698
+

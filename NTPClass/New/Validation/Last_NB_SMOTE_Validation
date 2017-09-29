@@ -1,0 +1,36 @@
+Tester:     weka.experiment.PairedCorrectedTTester -G 4,5,6 -D 1 -R 2 -S 0.05 -result-matrix "weka.experiment.ResultMatrixPlainText -mean-prec 2 -stddev-prec 2 -col-name-width 0 -row-name-width 25 -mean-width 2 -stddev-width 2 -sig-width 1 -count-width 5 -print-col-names -print-row-names -enum-col-names"
+Analysing:  Area_under_ROC
+Datasets:   15
+Resultsets: 4
+Confidence: 0.05 (two tailed)
+Sorted by:  Area_under_ROC
+Date:       9/10/17 4:00 PM
+
+
+Dataset                   (1) meta.Fi | (2) meta (3) meta (4) meta
+------------------------------------------------------------------
+'90d_1to1-weka.filters.un(100)   0.67 |   0.66     0.64     0.62 *
+'180d_1to1-weka.filters.u(100)   0.68 |   0.68     0.68     0.67  
+'90d_2to2-weka.filters.un(100)   0.70 |   0.69     0.68     0.67  
+'180d_2to2-weka.filters.u(100)   0.73 |   0.73     0.73     0.73  
+'365d_1to1-weka.filters.u(100)   0.74 |   0.74     0.74     0.74  
+'90d_4to4-weka.filters.un(100)   0.76 |   0.75     0.75     0.74  
+'90d_3to3-weka.filters.un(100)   0.76 |   0.74     0.73     0.73  
+'180d_5to5-weka.filters.u(100)   0.78 |   0.77     0.76     0.75  
+'365d_5to5-weka.filters.u(100)   0.79 |   0.79     0.79     0.79  
+'180d_3to3-weka.filters.u(100)   0.81 |   0.81     0.81     0.81  
+'365d_2to2-weka.filters.u(100)   0.81 |   0.82     0.82     0.82  
+'180d_4to4-weka.filters.u(100)   0.82 |   0.82     0.82     0.82  
+'90d_5to5-weka.filters.un(100)   0.84 |   0.83     0.84     0.83  
+'365d_3to3-weka.filters.u(100)   0.85 |   0.85     0.84     0.84  
+'365d_4to4-weka.filters.u(100)   0.85 |   0.85     0.86     0.85  
+------------------------------------------------------------------
+                              (v/ /*) | (0/15/0) (0/15/0) (0/14/1)
+
+
+Key:
+(1) meta.FilteredClassifier '-F \"supervised.instance.SMOTE -C 0 -K 5 -P 0.0 -S 1\" -W bayes.NaiveBayes' -4523450618538717400
+(2) meta.FilteredClassifier '-F \"supervised.instance.SMOTE -C 0 -K 5 -P 50.0 -S 1\" -W bayes.NaiveBayes' -4523450618538717400
+(3) meta.FilteredClassifier '-F \"supervised.instance.SMOTE -C 0 -K 5 -P 100.0 -S 1\" -W bayes.NaiveBayes' -4523450618538717400
+(4) meta.FilteredClassifier '-F \"supervised.instance.SMOTE -C 0 -K 5 -P 200.0 -S 1\" -W bayes.NaiveBayes' -4523450618538717400
+

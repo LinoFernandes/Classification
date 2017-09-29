@@ -1,0 +1,100 @@
+@relation '180d_5to5-weka.filters.unsupervised.attribute.Remove-R14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32-weka.filters.supervised.attribute.AttributeSelection-Eweka.attributeSelection.CfsSubsetEval -P 1 -E 1-Sweka.attributeSelection.RerankingSearch -method 2 -blockSize 20 -rankingMeasure 0 -search \"weka.attributeSelection.GreedyStepwise -T -1.7976931348623157E308 -N -1 -num-slots 1\"-weka.filters.unsupervised.attribute.ReplaceMissingValues'
+
+@attribute 'Evolution patternB' {'para cruz','hemi cruz',para,CROSSED,hemi}
+@attribute ALS-FRS_5 numeric
+@attribute ALS-FRSb_5 numeric
+@attribute Evolution_5 {N,Y}
+
+@data
+'para cruz',29,3,N
+'para cruz',30,9,Y
+'hemi cruz',17,11,N
+'para cruz',26,11,N
+'para cruz',24,10,Y
+para,34,12,N
+'para cruz',33,9,N
+'para cruz',14,10,Y
+'para cruz',32,10,N
+'hemi cruz',19,4,Y
+'para cruz',30,11,N
+'para cruz',37,12,N
+'hemi cruz',30,11,N
+'para cruz',27,10,Y
+para,35,12,N
+'hemi cruz',23,12,N
+'para cruz',25,12,N
+'para cruz',28.697674,9.953488,N
+CROSSED,23,9,N
+para,29,12,N
+'para cruz',25,9,N
+para,26,9,Y
+para,33,12,N
+'para cruz',28,10,Y
+'para cruz',34,12,N
+'para cruz',37,12,N
+CROSSED,28,11,N
+'para cruz',20,9,N
+'para cruz',33,12,N
+'para cruz',26,12,N
+para,28.697674,9.953488,N
+'para cruz',38,12,N
+'para cruz',27,3,Y
+para,27,12,N
+'para cruz',29,12,N
+para,21,12,N
+'hemi cruz',27,2,N
+hemi,28.697674,9.953488,Y
+'para cruz',30,12,N
+CROSSED,19,10,N
+'para cruz',23,10,N
+'para cruz',31,3,N
+para,25,9,Y
+'para cruz',24,6,Y
+para,20,0,Y
+para,32,4,N
+hemi,25,10,Y
+para,24,9,Y
+'para cruz',37,12,N
+'para cruz',34,12,Y
+'para cruz',18,12,N
+para,34,12,N
+'para cruz',8,5,Y
+'para cruz',35,12,N
+'para cruz',26,9,Y
+'hemi cruz',31,12,N
+'hemi cruz',15,12,Y
+'hemi cruz',16,8,N
+para,34,12,N
+para,26,11,N
+'para cruz',31,12,N
+'para cruz',33,11,N
+'para cruz',28.697674,9.953488,N
+'para cruz',33,12,N
+'para cruz',38,12,N
+'para cruz',14,4,N
+'para cruz',30,10,N
+'para cruz',36,12,N
+'para cruz',35,8,Y
+'para cruz',36,12,N
+'para cruz',36,12,N
+'para cruz',36,12,N
+'para cruz',33,5,N
+'para cruz',6,2,Y
+'para cruz',36,12,N
+'para cruz',33,10,N
+'para cruz',36,10,Y
+'para cruz',35,11,N
+'para cruz',37,12,N
+'para cruz',35,12,N
+'para cruz',31,8,N
+'para cruz',31,12,N
+'para cruz',28.697674,9.953488,N
+'para cruz',31,12,N
+'para cruz',40,12,Y
+'para cruz',22,12,N
+'para cruz',38,12,N
+'para cruz',35,12,N
+'para cruz',37,12,N
+'para cruz',12,8,Y
+'para cruz',39,12,N
+'para cruz',28.697674,9.953488,N

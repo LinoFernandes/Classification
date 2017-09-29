@@ -83,6 +83,24 @@ for window in Window:
                         StratifiedCV.inputformat(data)
                         dataTrain = StratifiedCV.filter(data)
 
+                        toBeRemoved = []
+                        for attribute in range(0, dataTrain.attributes().data.class_index):
+                            if dataTrain.attribute_stats(
+                                    attribute).missing_count == dataTrain.attributes().data.num_instances and dataTest.attribute_stats(
+                                attribute).missing_count == dataTest.attributes().data.num_instances:
+                                sys.exit("Fold has full missing column")
+                            if (dataTrain.attribute_stats(
+                                    attribute).missing_count / dataTrain.attributes().data.num_instances) > 0.5 and (
+                                dataTest.attribute_stats(
+                                        attribute).missing_count / dataTest.attributes().data.num_instances) > 0.5:
+                                toBeRemoved.append(str(attribute))
+
+                        Remove = Filter(classname="weka.filters.unsupervised.attribute.Remove",
+                                        options=['-R', ','.join(toBeRemoved)])
+                        Remove.inputformat(dataTrain)
+                        dataTrain = Remove.filter(dataTrain)
+                        dataTest = Remove.filter(dataTest)
+
                         import weka.core.classes as wcc
 
                         FS = Filter(classname="weka.filters.supervised.attribute.AttributeSelection",
